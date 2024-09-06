@@ -1,11 +1,12 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
+  width: 1158px;
 }
 
 .container{
-  width: 1158px;
   display: flex;
+  align-items: center;
 }
 
 header{
@@ -46,24 +47,38 @@ header li {
   list-style-type: none;
 }
 
-.container-header{
-  display: flex;
-  align-items: center;
-}
-
 .page-menu-list{
   display: flex;
 }
 
+.list-1{
+  width: 48px;
+}
+
+.list-2{
+  width: 66px;
+}
+
+.list-3{
+  width: 67px;
+}
+
 .address{
   display: flex;
-  align-items: center;
+}
+
+.mail{
+  margin: 100px;
+}
+
+.tel{
+
 }
 
 .web {
   font-weight: 700;
-  font-size: 0.9;
-  line-height: 1.05;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: 3%;
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -71,30 +86,32 @@ header li {
 
 .studio {
   font-weight: 700;
-  font-size: 0.9;
-  line-height: 1.05;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: 3%;
   font-family: "Raleway", sans-serif;
 }
 
 .section-1 {
   font-weight: 700;
-  font-size: 2.8;
-  line-height: 3;
+  font-size: 56px;
+  line-height: 60px;
   letter-spacing: 2%;
   background-color: #2e2f42;
   color: #ffffff;
   padding-top: 120px;
   padding-bottom: 120px;
   text-align: center;
+  width: 1440px;
+  height: 600px;
 }
 
-button {
+.button {
   width: 169px;
   height: 56px;
   font-weight: 500;
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 4%;
   background-color: #4d5ae5;
   color: #ffffff;
@@ -117,28 +134,30 @@ button:hover {
 
 .section-2 li {
   font-weight: 500;
-  font-size: 1;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 24px;
   letter-spacing: 2%;
   list-style-type: none;
 }
 
 .section-2 p {
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
 }
 
 .section-3 {
   font-weight: 700;
-  font-size: 1.8;
-  line-height: 2;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: 2%;
   background-color: #f4f4fd;
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+  width: 1440px;
+  height: 732px;
 }
 
 .section-3-div{
@@ -167,23 +186,23 @@ display: flex;
 
 .section-3 li {
   font-weight: 500;
-  font-size: 1;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 24px;
   letter-spacing: 2%;
   list-style-type: none;
 }
 
 .section-3 p {
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
 }
 
 .section-4 {
   font-weight: 700;
-  font-size: 1.8;
-  line-height: 2;
+  font-size: 36px;
+  line-height: 40px;
   letter-spacing: 2%;
   color: #2e2f42;
   padding-top: 120px;
@@ -201,15 +220,15 @@ display: flex;
 
 .section-4 li {
   font-weight: 500;
-  font-size: 1;
-  line-height: 1.2;
+  font-size: 20px;
+  line-height: 24px;
   letter-spacing: 2%;
   list-style-type: none;
 }
 
 .section-4 p {
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
 }
@@ -222,16 +241,16 @@ footer {
 
 footer a {
   font-weight: 700;
-  font-size: 0.9;
-  line-height: 1.05;
+  font-size: 18px;
+  line-height: 21px;
   letter-spacing: 3%;
   color: #f4f4fd;
   text-decoration: none;
 }
 
 footer p {
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
   color: #f4f4fd;
 }
