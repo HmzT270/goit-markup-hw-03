@@ -7,12 +7,14 @@ body {
 .container{
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 
 header{
   width: 1440px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  height: 72px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 
 header a {
@@ -69,10 +71,6 @@ header li {
 
 .mail{
   margin: 100px;
-}
-
-.tel{
-
 }
 
 .web {
@@ -200,6 +198,7 @@ display: flex;
 }
 
 .section-4 {
+  width: 1200px;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -224,6 +223,7 @@ display: flex;
   line-height: 24px;
   letter-spacing: 2%;
   list-style-type: none;
+  margin: 10px;
 }
 
 .section-4 p {
