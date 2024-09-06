@@ -4,13 +4,13 @@ body {
   width: 1158px;
 }
 
-.container{
+.container {
   display: flex;
   align-items: center;
   width: 1158px;
 }
 
-header{
+header {
   width: 1440px;
   height: 72px;
   margin-left: 120px;
@@ -49,28 +49,30 @@ header li {
   list-style-type: none;
 }
 
-.page-menu-list{
+.page-menu-list {
   display: flex;
+  margin-left: 200px;
 }
 
-.list-1{
+.list-1 {
   width: 48px;
 }
 
-.list-2{
+.list-2 {
   width: 66px;
 }
 
-.list-3{
+.list-3 {
   width: 67px;
 }
 
-.address{
+.address {
   display: flex;
 }
 
-.mail{
-  margin: 100px;
+.mail {
+  margin-left: 200px;
+  margin-right: 50px;
 }
 
 .web {
@@ -124,9 +126,10 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+  padding-left: 100px;
 }
 
-.section-2-div{
+.section-2-div {
   display: flex;
 }
 
@@ -154,31 +157,32 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+  padding-left: 150px;
   width: 1440px;
   height: 732px;
 }
 
-.section-3-div{
-display: flex;
+.section-3-div {
+  display: flex;
 }
 
-.our-team{
+.our-team {
   text-align: center;
 }
 
-.imga{
+.imga {
   margin-right: 32px;
 }
 
-.imgb{
+.imgb {
   margin-right: 32px;
 }
 
-.imgc{
+.imgc {
   margin-right: 32px;
 }
 
-.imgd{
+.imgd {
   margin-right: 32px;
 }
 
@@ -208,11 +212,11 @@ display: flex;
   padding-bottom: 120px;
 }
 
-.our-portfolio{
+.our-portfolio {
   text-align: center;
 }
 
-.section-4-div{
+.section-4-div {
   display: flex;
   flex-wrap: wrap;
 }
@@ -237,6 +241,7 @@ footer {
   background-color: #2e2f42;
   width: 1440px;
   height: 312px;
+  padding: 100px;
 }
 
 footer a {
