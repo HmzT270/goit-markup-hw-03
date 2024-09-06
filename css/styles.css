@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  width: 1158px;
+  width: 1400px;
 }
 
 .container {
@@ -15,6 +15,7 @@ header {
   height: 72px;
   margin-left: 120px;
   margin-top: 20px;
+  border: 2px, solid, #E7E9FC;
 }
 
 header a {
@@ -25,8 +26,8 @@ header a {
 
 header nav li a {
   font-weight: 500;
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
 }
 
@@ -35,8 +36,8 @@ header nav li a:hover {
 }
 
 header address li a {
-  font-size: 0.8;
-  line-height: 1.2;
+  font-size: 16px;
+  line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
 }
@@ -126,7 +127,7 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-  padding-left: 100px;
+  text-align: center;
 }
 
 .section-2-div {
@@ -202,7 +203,7 @@ button:hover {
 }
 
 .section-4 {
-  width: 1200px;
+  width: 1400px;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
@@ -210,7 +211,8 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-}
+  padding-left: 100px;
+  border: 1px, solid, #E7E9FC;}
 
 .our-portfolio {
   text-align: center;
