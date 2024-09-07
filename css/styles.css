@@ -14,7 +14,9 @@ header {
   width: 1440px;
   height: 72px;
   margin-top: 20px;
-  border: 1px, solid, #E7E9FC;
+  border: 1px;
+  border-color: #e7e9fc;
+  border-style: solid;
 }
 
 header a {
@@ -212,7 +214,6 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-  border: 1px, solid, #E7E9FC;
 }
 
 .our-portfolio {
@@ -238,6 +239,12 @@ button:hover {
   line-height: 24px;
   letter-spacing: 2%;
   color: #434455;
+}
+
+.border {
+  border: 0px, 1px, 1px, 1px;
+  border-color: #e7e9fc;
+  border-style: solid;
 }
 
 footer {
