@@ -296,26 +296,11 @@ button:hover {
 
 .section-3-div {
   display: flex;
+  justify-content: space-around;
 }
 
 .our-team {
   text-align: center;
-}
-
-.imga {
-  margin-right: 32px;
-}
-
-.imgb {
-  margin-right: 32px;
-}
-
-.imgc {
-  margin-right: 32px;
-}
-
-.imgd {
-  margin-right: 32px;
 }
 
 .section-3 li {
@@ -351,6 +336,7 @@ button:hover {
 .section-4-div {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .section-4 li {
@@ -359,7 +345,6 @@ button:hover {
   line-height: 24px;
   letter-spacing: 2%;
   list-style-type: none;
-  margin: 10px;
 }
 
 .section-4 p {
