@@ -32,6 +32,11 @@ body {
   align-items: center;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 header {
   height: 72px;
   border-bottom: 1px;
@@ -118,11 +123,6 @@ header li {
   line-height: 21px;
   letter-spacing: 3%;
   font-family: "Raleway", sans-serif;
-}
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .section-1 {
