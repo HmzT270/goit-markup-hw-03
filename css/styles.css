@@ -32,6 +32,13 @@ body {
   width: 1158px;
 }
 
+.content{
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  justify-content: space-around;
+}
+
 header {
   width: 1158px;
   height: 72px;
@@ -39,7 +46,7 @@ header {
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 header a {
@@ -77,21 +84,18 @@ header li {
 
 .page-menu-list {
   display: flex;
-  margin-left: 200px;
 }
 
 .list-1 {
-  width: 48px;
-  margin-right: 20px;
+  width: 60px;
 }
 
 .list-2 {
-  width: 66px;
-  margin-right: 20px;
+  width: 75px;
 }
 
 .list-3 {
-  width: 67px;
+  width: 100px;
 }
 
 .address {
@@ -99,8 +103,7 @@ header li {
 }
 
 .mail {
-  margin-left: 200px;
-  margin-right: 50px;
+  padding-right: 100px;
 }
 
 .web {
@@ -132,7 +135,7 @@ header li {
   text-align: center;
   width: 1158px;
   height: 600px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 .button {
@@ -157,7 +160,7 @@ button:hover {
   padding-bottom: 120px;
   text-align: center;
   width: 1158px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 .section-2-div {
@@ -191,7 +194,7 @@ button:hover {
   padding-bottom: 120px;
   width: 1158px;
   height: 732px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 .section-3-div {
@@ -229,14 +232,10 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 .our-portfolio {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 40px;
-  letter-spacing: 2%;
   text-align: center;
 }
 
@@ -264,10 +263,7 @@ button:hover {
 }
 
 .border {
-  border-top: 0px;
-  border-right: 1px;
-  border-left: 1px;
-  border-bottom: 1px;
+  border-width: 0px 1px 1px 1px;
   border-color: #e7e9fc;
   border-style: solid;
 }
@@ -277,7 +273,7 @@ footer {
   width: 1158px;
   height: 312px;
   padding: 100px;
-  margin-left: 350px;
+  margin: 0 auto;
 }
 
 footer a {
