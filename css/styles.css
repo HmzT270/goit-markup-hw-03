@@ -235,6 +235,10 @@ button:hover {
   margin: 0 auto;
 }
 
+.images{
+  display: flex;
+}
+
 .our-portfolio {
   text-align: center;
 }
