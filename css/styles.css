@@ -24,7 +24,6 @@ ul {
 body {
   font-family: "Roboto", sans-serif;
   color: #2e2f42;
-  width: 1440px;
 }
 
 .container {
@@ -40,6 +39,7 @@ header {
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
+  margin-left: 350px;
 }
 
 header a {
@@ -60,6 +60,7 @@ header nav li a:hover {
 }
 
 header address li a {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -131,6 +132,7 @@ header li {
   text-align: center;
   width: 1158px;
   height: 600px;
+  margin-left: 350px;
 }
 
 .button {
@@ -155,6 +157,7 @@ button:hover {
   padding-bottom: 120px;
   text-align: center;
   width: 1158px;
+  margin-left: 350px;
 }
 
 .section-2-div {
@@ -170,6 +173,7 @@ button:hover {
 }
 
 .section-2 p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -187,6 +191,7 @@ button:hover {
   padding-bottom: 120px;
   width: 1158px;
   height: 732px;
+  margin-left: 350px;
 }
 
 .section-3-div {
@@ -208,6 +213,7 @@ button:hover {
 }
 
 .section-3 p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -223,9 +229,14 @@ button:hover {
   color: #2e2f42;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin-left: 350px;
 }
 
 .our-portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
   text-align: center;
 }
 
@@ -245,6 +256,7 @@ button:hover {
 }
 
 .section-4 p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
@@ -265,6 +277,7 @@ footer {
   width: 1158px;
   height: 312px;
   padding: 100px;
+  margin-left: 350px;
 }
 
 footer a {
@@ -277,6 +290,7 @@ footer a {
 }
 
 footer p {
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 2%;
