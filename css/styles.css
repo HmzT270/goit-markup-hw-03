@@ -1,332 +1,293 @@
-<!DOCTYPE html>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
 
-<html lang="en">
-  <head>
-    <title>Web-Studio</title>
+ol,
+ul {
+  list-style: none;
+}
 
-    <meta charset="UTF-8" />
+body {
+  font-family: "Roboto", sans-serif;
+  color: #2e2f42;
+}
 
-    <link rel="stylesheet" href="css/styles.css" />
+.container {
+  width: 1158px;
+  margin: 0 auto;
+  align-items: center;
+}
 
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    />
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.0/modern-normalize.min.css"
-      integrity="sha512-3axTZ/bKFZH5/qLFTl4U+mDbBDFW+5QO5L7D1HnOhlhJbcNDIVJxoNm6It77g0eUdzfKZlHirayqRC2qJaAOJw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
+header {
+  height: 72px;
+  border-bottom: 1px;
+  border-color: #e7e9fc;
+  border-style: solid;
+  padding: 30px;
+}
 
-  <body>
-    <header>
-      <div class="container">
-        <div class="header-list">
-          <div>
-            <a class="web" href="webstudio" target="_blank">WEB</a>
-            <a class="studio" href="webstudio" target="_blank">STUDİO</a>
-          </div>
+.header-list {
+  display: flex;
+  width: 1158px;
+  justify-content: space-around;
+}
 
-          <nav>
-            <ul class="page-menu-list">
-              <li class="list-studio"><a href="linkstudio">Studio</a></li>
-              <li class="list-portfolio">
-                <a href="linkportfolio">Portfolio</a>
-              </li>
-              <li class="list-contacts"><a href="linkcontacts">Contacts</a></li>
-            </ul>
-          </nav>
+header a {
+  color: #2e2f42;
+  background-color: #ffffff;
+  text-decoration: none;
+}
 
-          <address>
-            <ul class="address">
-              <li>
-                <a class="mail" href="mailto:info@devstudio.com"
-                  >info@devstudio.com</a
-                >
-              </li>
-              <li>
-                <a href="tel:+11 (000) 111-11-11">+11 (000) 111-11-11</a>
-              </li>
-            </ul>
-          </address>
-        </div>
-      </div>
-    </header>
+header nav li a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+}
 
-    <main>
-      <section class="section-1">
-        <div class="section">
-          <div class="container">
-            <h1>
-              Effective Solutions
-              <br />
-              for Your Business
-            </h1>
+header nav li a:hover {
+  color: #404bbf;
+}
 
-            <br />
-            <button class="button" type="button">Order Service</button>
-          </div>
-        </div>
-      </section>
+header address li a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
 
-      <section class="section-2">
-        <div class="section">
-          <div class="container">
-            <ul>
-              <div class="section-2-div">
-                <li>
-                  <h2>Strategy</h2>
-                  <p>
-                    Our goal is to identify the business problem to walk away
-                    with the perfect and creative solution.
-                  </p>
-                </li>
+header address li a:hover {
+  color: #404bbf;
+}
 
-                <li>
-                  <h2>Punctuality</h2>
-                  <p>
-                    Bring the key message to the brand's audience for the best
-                    price within the shortest possible time.
-                  </p>
-                </li>
+header li {
+  list-style-type: none;
+}
 
-                <li>
-                  <h2>Diligence</h2>
-                  <p>
-                    Research and confirm brands that present the strongest
-                    digital growth opportunities and minimize risk.
-                  </p>
-                </li>
+.page-menu-list {
+  display: flex;
+}
 
-                <li>
-                  <h2>Technology</h2>
-                  <p>
-                    Design practice focused on digital experiences. We bring
-                    forth a deep passion for problem-solving.
-                  </p>
-                </li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
+.list-studio {
+  width: 60px;
+}
 
-      <section class="section-3">
-        <div class="section">
-          <div class="container">
-            <h2 class="our-team">Our Team</h2>
-            <br />
+.list-portfolio {
+  width: 75px;
+}
 
-            <ul>
-              <div class="section-3-div">
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imga.jpg"
-                      alt="Mark Guerrero's image"
-                      width="264px"
-                      height="260px"
-                    />
-                  </div>
-                  <div class="background">
-                    <br />
-                    <h2>Mark Guerrero</h2>
-                    <br />
-                    <p>Product Designer</p>
-                  </div>
-                </li>
+.list-contacts {
+  width: 100px;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imgb.jpg"
-                      alt="Tom Ford's image"
-                      width="264px"
-                      height="260px"
-                    />
-                  </div>
-                  <div class="background">
-                    <br />
-                    <h2>Tom Ford</h2>
-                    <br />
-                    <p>Fronted Developer</p>
-                  </div>
-                </li>
+.address {
+  display: flex;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imgc.jpg"
-                      alt="Camila Garcia's image"
-                      width="264px"
-                      height="260px"
-                    />
-                  </div>
-                  <div class="background">
-                    <br />
-                    <h2>Camila Garcia</h2>
-                    <br />
-                    <p>Marketing</p>
-                  </div>
-                </li>
+.mail {
+  padding-right: 100px;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imgd.jpg"
-                      alt="Daniel Wilson's image"
-                      width="264px"
-                      height="260px"
-                    />
-                  </div>
-                  <div class="background">
-                    <br />
-                    <h2>Daniel Wilson</h2>
-                    <br />
-                    <p>UI Designer</p>
-                  </div>
-                </li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
+.web {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+}
 
-      <section class="section-4">
-        <div class="section">
-          <div class="container">
-            <h2 class="our-portfolio">Our Portfolio</h2>
-            <br />
+.studio {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  font-family: "Raleway", sans-serif;
+}
 
-            <ul>
-              <div class="section-4-div">
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imagee.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h3>Banking App</h3>
-                    <br />
-                    <p>App</p>
-                  </div>
-                </li>
+.section-1 {
+  height: 600px;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 2%;
+  background-color: #2e2f42;
+  color: #ffffff;
+  text-align: center;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imagef.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h2>Cashless Payment</h2>
-                    <br />
-                    <p>Marketing</p>
-                  </div>
-                </li>
+.button {
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 4%;
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imageg.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h2>Meditation App</h2>
-                    <br />
-                    <p>App</p>
-                  </div>
-                </li>
+button:hover {
+  background-color: #404bbf;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imageh.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h2>Taxi Service</h2>
-                    <br />
-                    <p>Marketing</p>
-                  </div>
-                </li>
+.section-2 {
+  color: #2e2f42;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imagei.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h2>Screen Illustrations</h2>
-                    <br />
-                    <p>Design</p>
-                  </div>
-                </li>
+.section-2-div {
+  display: flex;
+}
 
-                <li>
-                  <div class="images">
-                    <img
-                      src="images/imagej.jpg"
-                      alt="Fotograf bulunamadi"
-                      width="360px"
-                      height="300px"
-                    />
-                  </div>
-                  <div class="border">
-                    <br />
-                    <h2>Online Courses</h2>
-                    <br />
-                    <p>Marketing</p>
-                  </div>
-                </li>
-              </div>
-            </ul>
-          </div>
-        </div>
-      </section>
-    </main>
+.section-2 li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  list-style-type: none;
+}
 
-    <footer>
-      <div class="container">
-        <div>
-          <a class="web" href="web" target="_blank">WEB</a>
-          <a class="studio" href="studio" target="_blank">STUDİO</a>
-          <p>
-            <br />
-            Increase the flow of customers and
-            <br />
-            sales for your business with digital
-            <br />
-            marketing & growth solutions
-          </p>
-        </div>
-      </div>
-    </footer>
-  </body>
-</html>
+.section-2 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section-3 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  background-color: #f4f4fd;
+  color: #2e2f42;
+  height: 732px;
+}
+
+.section-3-div {
+  display: flex;
+  gap: 32px;
+}
+
+.our-team {
+  text-align: center;
+}
+
+.section-3 li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  list-style-type: none;
+}
+
+.images {
+  display: flex;
+}
+
+.background {
+  width: 264px;
+  height: 120px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 0px 4px 4px 0px #00000026;
+}
+
+.section-3 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.section-4 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 2%;
+  color: #2e2f42;
+}
+
+.images {
+  display: flex;
+}
+
+.our-portfolio {
+  text-align: center;
+}
+
+.section-4-div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: space-around;
+}
+
+.section-4 li {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  list-style-type: none;
+}
+
+.section-4 p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #434455;
+}
+
+.border {
+  border-width: 0px 1px 1px 1px;
+  border-color: #e7e9fc;
+  border-style: solid;
+  height: 120px;
+}
+
+footer {
+  background-color: #2e2f42;
+  height: 312px;
+  padding: 100px;
+}
+
+footer a {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 3%;
+  color: #f4f4fd;
+  text-decoration: none;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
+  color: #f4f4fd;
+}
