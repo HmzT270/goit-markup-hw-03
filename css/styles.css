@@ -33,12 +33,19 @@ body {
   width: 1158px;
 }
 
+.content{
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  justify-content: space-around;
+}
+
 header {
+  width: 1158px;
   height: 72px;
-  border-width: 1px;
+  border: 1px;
   border-color: #e7e9fc;
   border-style: solid;
-  width: 1158px;
   padding: 30px;
 }
 
@@ -76,21 +83,18 @@ header li {
 
 .page-menu-list {
   display: flex;
-  margin-left: 200px;
 }
 
 .list-1 {
-  width: 48px;
-  margin-right: 20px;
+  width: 60px;
 }
 
 .list-2 {
-  width: 66px;
-  margin-right: 20px;
+  width: 75px;
 }
 
 .list-3 {
-  width: 67px;
+  width: 100px;
 }
 
 .address {
@@ -98,8 +102,7 @@ header li {
 }
 
 .mail {
-  margin-left: 200px;
-  margin-right: 50px;
+  padding-right: 100px;
 }
 
 .web {
@@ -191,7 +194,8 @@ button:hover {
 
 .section-3-div {
   display: flex;
-  justify-content: space-around;
+  gap: 32px;
+  justify-content: space-between;
 }
 
 .our-team {
@@ -231,6 +235,7 @@ button:hover {
 .section-4-div {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
   justify-content: space-around;
 }
 
