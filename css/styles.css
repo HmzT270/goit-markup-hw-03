@@ -34,11 +34,11 @@ body {
 }
 
 header {
+  width: 1158px;
   height: 72px;
-  border-width: 1px;
+  border: 1px;
   border-color: #e7e9fc;
   border-style: solid;
-  width: 1158px;
   padding: 30px;
 }
 
@@ -191,7 +191,8 @@ button:hover {
 
 .section-3-div {
   display: flex;
-  justify-content: space-around;
+  gap: 32px;
+  justify-content: space-between;
 }
 
 .our-team {
@@ -231,6 +232,7 @@ button:hover {
 .section-4-div {
   display: flex;
   flex-wrap: wrap;
+  gap: 32px;
   justify-content: space-around;
 }
 
