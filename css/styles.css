@@ -27,26 +27,23 @@ body {
 }
 
 .container {
-  display: flex;
-  align-items: center;
   width: 1158px;
-}
-
-.content {
-  display: flex;
+  margin: 0 auto;
   align-items: center;
-  width: 1158px;
-  justify-content: space-around;
 }
 
 header {
-  width: 1158px;
   height: 72px;
-  border: 1px;
+  border-bottom: 1px;
   border-color: #e7e9fc;
   border-style: solid;
   padding: 30px;
-  margin: 0 auto;
+}
+
+.header-list {
+  display: flex;
+  width: 1158px;
+  justify-content: space-around;
 }
 
 header a {
@@ -86,15 +83,15 @@ header li {
   display: flex;
 }
 
-.list-1 {
+.list-studio {
   width: 60px;
 }
 
-.list-2 {
+.list-portfolio {
   width: 75px;
 }
 
-.list-3 {
+.list-contacts {
   width: 100px;
 }
 
@@ -123,19 +120,20 @@ header li {
   font-family: "Raleway", sans-serif;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .section-1 {
+  height: 600px;
   font-weight: 700;
   font-size: 56px;
   line-height: 60px;
   letter-spacing: 2%;
   background-color: #2e2f42;
   color: #ffffff;
-  padding-top: 120px;
-  padding-bottom: 120px;
   text-align: center;
-  width: 1158px;
-  height: 600px;
-  margin: 0 auto;
 }
 
 .button {
@@ -156,11 +154,7 @@ button:hover {
 
 .section-2 {
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
   text-align: center;
-  width: 1158px;
-  margin: 0 auto;
 }
 
 .section-2-div {
@@ -190,17 +184,12 @@ button:hover {
   letter-spacing: 2%;
   background-color: #f4f4fd;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  width: 1158px;
   height: 732px;
-  margin: 0 auto;
 }
 
 .section-3-div {
   display: flex;
   gap: 32px;
-  justify-content: space-between;
 }
 
 .our-team {
@@ -215,6 +204,17 @@ button:hover {
   list-style-type: none;
 }
 
+.images {
+  display: flex;
+}
+
+.background {
+  text-align: center;
+  background-color: white;
+  width: 264px;
+  height: 180px;
+}
+
 .section-3 p {
   font-weight: 400;
   font-size: 16px;
@@ -224,15 +224,11 @@ button:hover {
 }
 
 .section-4 {
-  width: 1158px;
   font-weight: 700;
   font-size: 36px;
   line-height: 40px;
   letter-spacing: 2%;
   color: #2e2f42;
-  padding-top: 120px;
-  padding-bottom: 120px;
-  margin: 0 auto;
 }
 
 .images {
@@ -275,10 +271,8 @@ button:hover {
 
 footer {
   background-color: #2e2f42;
-  width: 1158px;
   height: 312px;
   padding: 100px;
-  margin: 0 auto;
 }
 
 footer a {
