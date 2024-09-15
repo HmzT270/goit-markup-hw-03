@@ -136,7 +136,7 @@ header li {
   text-align: center;
 }
 
-.button {
+.section-1-button {
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -202,13 +202,13 @@ button:hover {
   letter-spacing: 2%;
 }
 
-.images {
+.section-3-images {
   display: flex;
 }
 
-.background {
+.section-3-background {
   width: 264px;
-  height: 120px;
+  height: 168px;
   text-align: center;
   background-color: white;
 }
@@ -221,6 +221,14 @@ button:hover {
   color: #434455;
 }
 
+.space-1 {
+  padding-top: 20px;
+}
+
+.space-2 {
+  margin-top: 10px;
+}
+
 .section-4 {
   font-weight: 700;
   font-size: 36px;
@@ -229,7 +237,7 @@ button:hover {
   color: #2e2f42;
 }
 
-.images {
+.section-4-images {
   display: flex;
 }
 
@@ -259,7 +267,7 @@ button:hover {
   padding-top: 10px;
 }
 
-.border {
+.section-4-border {
   border-width: 0px 1px 1px 1px;
   border-color: #e7e9fc;
   border-style: solid;
