@@ -85,19 +85,28 @@ header li {
 }
 
 .page-menu-list {
+  width: 350px;
+  height: 48px;
+  font-weight: 500px;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 2%;
   display: flex;
 }
 
 .list-studio {
   width: 60px;
+  height: 24px;
 }
 
 .list-portfolio {
   width: 75px;
+  height: 24px;
 }
 
 .list-contacts {
   width: 100px;
+  height: 24px;
 }
 
 .address {
